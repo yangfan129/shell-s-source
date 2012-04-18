@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+file	testmkdir.cpp	/^    fileinfo file;$/;"	m	language:C++	struct:filelist	file:	access:public
+fileList	testmkdir.cpp	/^}fileList;$/;"	t	language:C++	typeref:struct:filelist	file:
+fileSize	testmkdir.cpp	/^int fileSize(char fileName[]);$/;"	p	language:C++	file:	signature:(char fileName[])
+fileinfo	testmkdir.cpp	/^typedef struct fileinfo$/;"	s	language:C++	file:
+fileinfo	testmkdir.cpp	/^}fileinfo;$/;"	t	language:C++	typeref:struct:fileinfo	file:
+fileinfo::fullName	testmkdir.cpp	/^    char fullName[1024];$/;"	m	language:C++	struct:fileinfo	file:	access:public
+fileinfo::mod_time	testmkdir.cpp	/^    time_t mod_time;$/;"	m	language:C++	struct:fileinfo	file:	access:public
+fileinfo::name	testmkdir.cpp	/^    char name[256];$/;"	m	language:C++	struct:fileinfo	file:	access:public
+fileinfo::size	testmkdir.cpp	/^    int size;$/;"	m	language:C++	struct:fileinfo	file:	access:public
+fileinfo::type	testmkdir.cpp	/^    char type[10];$/;"	m	language:C++	struct:fileinfo	file:	access:public
+filelist	testmkdir.cpp	/^typedef struct filelist$/;"	s	language:C++	file:
+filelist::file	testmkdir.cpp	/^    fileinfo file;$/;"	m	language:C++	struct:filelist	file:	access:public
+filelist::nextfile	testmkdir.cpp	/^    struct filelist* nextfile;$/;"	m	language:C++	struct:filelist	typeref:struct:filelist::filelist	file:	access:public
+fullName	testmkdir.cpp	/^    char fullName[1024];$/;"	m	language:C++	struct:fileinfo	file:	access:public
+getFileList	testmkdir.cpp	/^fileList* getFileList(char name[1024])$/;"	f	language:C++	signature:(char name[1024])
+mod_time	testmkdir.cpp	/^    time_t mod_time;$/;"	m	language:C++	struct:fileinfo	file:	access:public
+name	testmkdir.cpp	/^    char name[256];$/;"	m	language:C++	struct:fileinfo	file:	access:public
+nextfile	testmkdir.cpp	/^    struct filelist* nextfile;$/;"	m	language:C++	struct:filelist	typeref:struct:filelist::filelist	file:	access:public
+size	testmkdir.cpp	/^    int size;$/;"	m	language:C++	struct:fileinfo	file:	access:public
+type	testmkdir.cpp	/^    char type[10];$/;"	m	language:C++	struct:fileinfo	file:	access:public
