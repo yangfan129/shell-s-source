@@ -10,7 +10,7 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  Heaven (), zhanwenhan@163.com
+ *         Author:  Heaven (), @163.com
  *        Company:  NDSL
  *
  * =====================================================================================
